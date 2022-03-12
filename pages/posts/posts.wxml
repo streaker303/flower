@@ -15,7 +15,7 @@
   <post posts-bottom="posts-bottom" src="{{item.path}}" />
     <!-- <view class="posts-container" data-id="{{index}}" bind:tap="goDetail">
       <view class="posts-user">
-        <image src="/images/avatar/1.jfif"></image>
+        <image src="/images/avatar/1.webp"></image>
         <text>Nov 18 2022</text>
       </view>
 

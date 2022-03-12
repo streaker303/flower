@@ -20,7 +20,7 @@ Page({
   },
   play() {
     const mgr = wx.getBackgroundAudioManager()
-    mgr.src = "http://m801.music.126.net/20220312182635/323b837956de1ab51434d96696285dc4/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/13311636363/4dc5/86fb/edbc/009145255ece7f4c8668b5fba9ea2d52.m4a"
+    mgr.src = "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
     mgr.title = "脱胎换骨"
 
   },

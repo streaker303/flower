@@ -1,6 +1,6 @@
 <view class="posts-container" data-id="1" bind:tap="goDetail">
   <view class="posts-user">
-    <image src="/images/avatar/1.jfif"></image>
+    <image src="/images/avatar/1.webp"></image>
     <text>Nov 18 2022</text>
   </view>
 
