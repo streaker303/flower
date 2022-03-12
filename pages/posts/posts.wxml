@@ -1,0 +1,34 @@
+<view>
+  <swiper indicator-dots autoplay circular>
+    <swiper-item>
+      <image src="/images/swiper/1.webp"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/swiper/2.webp"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/swiper/3.jpeg"></image>
+    </swiper-item>
+  </swiper>
+  
+  <block wx:for="{{arr}}" wx:key="index">
+  <post posts-bottom="posts-bottom" src="{{item.path}}" />
+    <!-- <view class="posts-container" data-id="{{index}}" bind:tap="goDetail">
+      <view class="posts-user">
+        <image src="/images/avatar/1.jfif"></image>
+        <text>Nov 18 2022</text>
+      </view>
+
+      <text class="posts-title">2022美女模特筛选</text>
+      <image class="posts-img" src="{{item.path}}"></image>
+      <text class="posts-content">关关雎鸠，在河之洲。窈窕淑女，君子好逑。参差荇菜，左右流之。窈窕淑女，寤寐求之。求之不得，寤寐思服。悠哉悠哉，辗转反侧。参差荇菜，左右采之。窈窕淑女，琴瑟友之。</text>
+      <view class="posts-bottom">
+        <l-icon color="#666" name="favor" />
+        <text>99</text>
+        <l-icon color="#666" name="eye" />
+        <text>199</text>
+      </view>
+    </view> -->
+  </block>
+
+</view>
